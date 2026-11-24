@@ -44,7 +44,7 @@
 ## 영상 결과
 
 - `test_result.mp4`: 20초 추적 결과에서 구간을 발췌·편집한 약 5.8초 영상입니다. 연속 구간이 아니므로 화면의 추적 ID와 왼쪽 위 부류별 카운터는 20초 전체 처리의 누적값입니다.
-- `track_full.mp4`: 20초 전체 구간의 감지·추적 결과입니다.
+- `test_full.mp4`: 20초 전체 구간의 감지·추적 결과입니다.
 - 추적은 ByteTrack(`bytetrack.yaml`, `conf=0.25`, `iou=0.5`)을 사용했고, 박스 중심점의 최근 30프레임 궤적과 부류별 고유 ID 수를 영상 위에 그렸습니다.
 
 ## 한계
@@ -58,7 +58,7 @@
 - `best.pt`: 학습한 모델 가중치
 - `yolo_finetune.py`: 학습·평가·영상 생성 스크립트
 - `results.png`, `confusion_matrix.png`, `PR_curve.png`: 학습 결과 그래프
-- `test_result.mp4`, `track_full.mp4`: 감지·추적 영상
+- `test_result.mp4`, `test_full.mp4`: 감지·추적 영상
 
 ## 사용 방법
 
