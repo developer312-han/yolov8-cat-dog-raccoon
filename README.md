@@ -39,7 +39,7 @@
 | raccoon | 0.958 | 0.833 | 0.917 | 0.615 |
 | 전체 | 0.937 | 0.810 | 0.891 | 0.636 |
 
-학습 곡선은 `results.png`, 혼동 행렬은 `confusion_matrix.png`, PR 곡선은 `PR_curve.png`를 참고하세요.
+학습 곡선은 `results.png`, 혼동 행렬은 `confusion_matrix.png`, PR 곡선은 `BoxPR_curve.png`를 참고하세요.
 
 ## 영상 결과
 
@@ -57,7 +57,7 @@
 
 - `best.pt`: 학습한 모델 가중치
 - `yolo_finetune.py`: 학습·평가·영상 생성 스크립트
-- `results.png`, `confusion_matrix.png`, `PR_curve.png`: 학습 결과 그래프
+- `results.png`, `confusion_matrix.png`, `BBoxPR_curve.png`: 학습 결과 그래프
 - `test_result.mp4`, `test_full.mp4`: 감지·추적 영상
 
 ## 사용 방법
